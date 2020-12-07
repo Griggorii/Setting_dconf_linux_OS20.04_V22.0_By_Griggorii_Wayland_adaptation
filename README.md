@@ -17,11 +17,4 @@ $ ./special_os_perfomance.sh
 
 _______________________________________________________________________________________________________________________________________
 
-OS Developer not just user !
-
-$ sudo dpkg --set-selections < ubuntu_os_full_os.txt
-
-$ sudo apt-get -y update
-
-$ sudo apt-get dselect-upgrade
-
+Nautilus old not not recommended setting old  https://github.com/Griggorii/Setting_dconf_linux_OS20.04_V14.0_By_Griggorii_Wayland_adaptation/blob/master/Replace_nemo-to-nautilus_dconf_linux_OS20.04_V10.0_By_Griggorii.sh
