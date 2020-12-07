@@ -17,9 +17,9 @@ $ ./special_os_perfomance.sh
 
 Calendar section menu office
 
-$ chmod -R a+rwx alarm-notify+calendar-allow-service_tracker_delete.sh.sh
+$ chmod -R a+rwx alarm-notify+calendar-allow-service_tracker_delete.sh
 
-$ ./alarm-notify+calendar-allow-service_tracker_delete.sh.sh
+$ ./alarm-notify+calendar-allow-service_tracker_delete.sh
 
 _____________________________________________________________________________________________________________________________________
 
