@@ -27,8 +27,6 @@ ________________________________________________________________________________
 
 $ sudo apt update && sudo apt install nautilus -y
 
-Nautilus new Replace_nemo-to-nautilus_dconf_linux_OS20.04_V26.0_By_Griggorii_Wayland_adaptation.sh
-
 $ chmod -R a+rwx Replace_nemo-to-nautilus_dconf_linux_OS20.04_V26.0_By_Griggorii_Wayland_adaptation.sh
 
 $ sudo ./Replace_nemo-to-nautilus_dconf_linux_OS20.04_V26.0_By_Griggorii_Wayland_adaptation.sh
