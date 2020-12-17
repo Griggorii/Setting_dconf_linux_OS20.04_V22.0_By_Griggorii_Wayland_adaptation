@@ -23,7 +23,15 @@ $ ./alarm-notify+calendar-allow-service_tracker_delete.sh
 
 _____________________________________________________________________________________________________________________________________
 
-_______________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________
 
-Nautilus new
+$ sudo apt update && sudo apt install nautilus -y
+
+Nautilus new Replace_nemo-to-nautilus_dconf_linux_OS20.04_V26.0_By_Griggorii_Wayland_adaptation.sh
+
+$ chmod -R a+rwx Replace_nemo-to-nautilus_dconf_linux_OS20.04_V26.0_By_Griggorii_Wayland_adaptation.sh
+
+$ sudo ./Replace_nemo-to-nautilus_dconf_linux_OS20.04_V26.0_By_Griggorii_Wayland_adaptation.sh
+
+Double repeat not sudo
 
