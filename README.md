@@ -9,7 +9,7 @@ $ chmod -R a+rwx Setting_dconf_linux_OS20.04_V26.0_By_Griggorii_Wayland_adaptati
 
 $ sudo ./Setting_dconf_linux_OS20.04_V26.0_By_Griggorii_Wayland_adaptation.sh
 
-Exit session ! New session run
+ignore hide icons re session ! Exit session ! New session run
 
 Double repeat not sudo
 
@@ -38,4 +38,6 @@ $ chmod -R a+rwx Replace_nemo-to-nautilus_dconf_linux_OS20.04_V26.0_By_Griggorii
 $ sudo ./Replace_nemo-to-nautilus_dconf_linux_OS20.04_V26.0_By_Griggorii_Wayland_adaptation.sh
 
 Double repeat not sudo
+
+Exit session ! New session run
 
