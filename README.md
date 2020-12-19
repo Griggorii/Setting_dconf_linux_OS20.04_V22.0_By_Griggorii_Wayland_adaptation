@@ -48,3 +48,17 @@ Onli shell version 3.38 danger risk check gnome-shell version 3.38
 
 sudo XZ_OPT=-9 tar -Jcvf gnome-shell-3.38_backup.tar.xz /usr/share/gnome-shell && sudo tar xvpf gnome-shell-3.38.tar.xz -C / && sudo tar xvpf gnome-shell-3.38_backup.tar.xz -C /
 
+Dconf setting recomendation extentions good test not problem install 
+
+https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/
+
+https://extensions.gnome.org/extension/97/coverflow-alt-tab/
+
+https://extensions.gnome.org/extension/545/hide-top-bar/
+
+https://extensions.gnome.org/extension/1270/auto-ovpn/
+
+Mehanizm manipulation setting
+
+sudo apt update gnome-tweak-tool gnome-tweaks -y
+
