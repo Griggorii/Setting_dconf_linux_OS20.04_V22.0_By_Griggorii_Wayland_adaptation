@@ -44,7 +44,7 @@ ________________________________________________________________________________
 
 https://github.com/Griggorii/Setting_dconf_linux_OS20.04_V26.0_By_Griggorii_Wayland_adaptation/releases/tag/gnome-shell-3.38
 
-Onli shell version 3.38 danger risk ncheck gnome-shell version 3.38
+Onli shell version 3.38 danger risk check gnome-shell version 3.38
 
 sudo XZ_OPT=-9 tar -Jcvf gnome-shell-3.38_backup.tar.xz /usr/share/gnome-shell && sudo tar xvpf gnome-shell-3.38.tar.xz -C / && sudo tar xvpf gnome-shell-3.38_backup.tar.xz -C /
 
