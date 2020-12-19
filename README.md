@@ -48,7 +48,7 @@ https://github.com/Griggorii/Setting_dconf_linux_OS20.04_V26.0_By_Griggorii_Wayl
 
 Onli shell version 3.38 danger risk check gnome-shell version 3.38
 
-sudo XZ_OPT=-9 tar -Jcvf gnome-shell-3.38_backup.tar.xz /usr/share/gnome-shell && sudo tar xvpf gnome-shell-3.38.tar.xz -C / && sudo tar xvpf gnome-shell-3.38_backup.tar.xz -C /
+$ sudo XZ_OPT=-9 tar -Jcvf gnome-shell-3.38_backup.tar.xz /usr/share/gnome-shell && sudo tar xvpf gnome-shell-3.38.tar.xz -C / && sudo tar xvpf gnome-shell-3.38_backup.tar.xz -C /
 
 Dconf setting recomendation extentions good test not problem install 
 
