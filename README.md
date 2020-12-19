@@ -29,7 +29,7 @@ ________________________________________________________________________________
 
 _____________________________________________________________________________________________________________________________________
 
-# Nautilus default all ubuntu
+# Nautilus default all ubuntu install https://extensions.gnome.org/extension/1465/desktop-icons/
 
 $ sudo apt update && sudo apt install nautilus -y
 
