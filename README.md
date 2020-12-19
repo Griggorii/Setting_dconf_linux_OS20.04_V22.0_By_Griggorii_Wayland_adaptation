@@ -58,7 +58,7 @@ https://extensions.gnome.org/extension/545/hide-top-bar/
 
 https://extensions.gnome.org/extension/1270/auto-ovpn/
 
-Mehanizm manipulation setting
+Mehanizm manipulation setting on/off extention
 
 sudo apt update gnome-tweak-tool gnome-tweaks -y
 
