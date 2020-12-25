@@ -1,6 +1,8 @@
 # Setting_dconf_linux_OS20.04_V26.0_By_Griggorii_Wayland_adaptation Nemo filemanger + sensor gdm3 touchpad
 dconf , gnome , wayland , new os , package full os , V26.0 perfomance wayland font DejaVu Sans Mono Bold 11 , tango gedit
 
+ibus update to dconf 25.12.2020
+
 # Nemo
 
 $ sudo apt update && sudo apt install nemo -y
