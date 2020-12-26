@@ -11,11 +11,11 @@ $ chmod -R a+rwx Setting_dconf_linux_OS20.04_V27.0_By_Griggorii_Wayland_adaptati
 
 $ sudo ./Setting_dconf_linux_OS20.04_V27.0_By_Griggorii_Wayland_adaptation.sh
 
-ignore hide icons re session ! Exit session ! New session run
-
 Double repeat not sudo
 
 $ ./Setting_dconf_linux_OS20.04_V27.0_By_Griggorii_Wayland_adaptation.sh
+
+ignore hide icons re session ! Exit session ! New session run : Ru игнорируя что иконки пока еще не появились выйти и заити и они появятся
 
 $ chmod -R a+rwx special_os_perfomance.sh
 
@@ -38,6 +38,7 @@ Exit session ! New session run
 _______________________________________________________________________________________________________________________
 
 
+Пишите что вы думаете почему такие технологии как dconf игнорируют корпорации и все остальные и не пишут свои желтые статьи итд. Думаю некоторые поняли что dconf это такая вещь о которой просто не будут говорить в силу того что из него можно вытащить хорошии флаги и увезти в dbus и другие технологии я получил этот конфиг сложнеишими методами установкой и смешиванием различных конфигурации и этому конфигу уже пять с небольшим лет сам метод возможно потом поможет сделать нормальную операционную систему. Понятно что инвестиции за настройку не дают по причине зависти ведь что бы настроить такак как в этом конфиге надо перефармить очень много систем что не любят быстро-около-денег-зарабатывальщики. То же самое происходит с ядром которое было собрано на моей системе версии oem 5.6 как бы игнорируют , но берут и приспосабливают к своему продукту.
 
 
 https://github.com/Griggorii/Setting_dconf_linux_OS20.04_V26.0_By_Griggorii_Wayland_adaptation/releases/tag/gnome-shell-3.38
