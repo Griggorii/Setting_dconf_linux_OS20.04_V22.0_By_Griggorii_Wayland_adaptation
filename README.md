@@ -5,6 +5,12 @@ ibus update to dconf 25.12.2020
 
 # Nemo default all ubuntu install 
 
+Fedora
+
+$ dnf install nemo
+
+Ubuntu , debian
+
 $ sudo apt update && sudo apt install nemo -y
 
 $ chmod -R a+rwx Setting_dconf_linux_OS20.04_V27.0_By_Griggorii_Wayland_adaptation.sh
@@ -25,6 +31,12 @@ ________________________________________________________________________________
 # Nautilus default all ubuntu install 
 
 install https://extensions.gnome.org/extension/1465/desktop-icons/
+
+Fedora
+
+$ dnf install nemo
+
+Ubuntu , debian
 
 $ sudo apt update && sudo apt install nautilus -y
 
