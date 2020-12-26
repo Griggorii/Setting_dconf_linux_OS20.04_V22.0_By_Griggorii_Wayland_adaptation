@@ -48,8 +48,9 @@ F1 | Help : вызов справки помощь
 
 Ctrl + N : Ctrl+Alt+Home | Run home folder : Вызов домашней директории
 
+View all setting terminal command:
 
-Shift@
+$ gnome-control-center keyboard
 
 
 
