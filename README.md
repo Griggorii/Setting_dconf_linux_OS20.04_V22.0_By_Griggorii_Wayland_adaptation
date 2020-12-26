@@ -3,7 +3,7 @@ dconf , gnome , wayland , new os , package full os , V27.0 perfomance wayland fo
 
 ibus update to dconf 25.12.2020
 
-# Nemo
+# Nemo default
 
 $ sudo apt update && sudo apt install nemo -y
 
