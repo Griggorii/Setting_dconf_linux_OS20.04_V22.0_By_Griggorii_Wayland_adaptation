@@ -1,4 +1,4 @@
-# Setting_dconf_linux_OS20.04_V27.0_By_Griggorii_Wayland_adaptation Nemo filemanger + sensor gdm3 touchpad
+# Setting_dconf_linux_OS20.04_V28.0_By_Griggorii_Wayland_adaptation Nemo filemanger + sensor gdm3 touchpad
 dconf , gnome , wayland , new os , package full os , V28.0 perfomance wayland font DejaVu Sans Mono Bold 11 , tango gedit
 
 ibus update nemo to dconf 31.12.2020
