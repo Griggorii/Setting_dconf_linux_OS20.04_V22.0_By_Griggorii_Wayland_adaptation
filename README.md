@@ -1,5 +1,5 @@
 # Setting_dconf_linux_OS20.04_V30.0_By_Griggorii_Wayland_adaptation Nemo filemanger + sensor gdm3 touchpad
-dconf , gnome , wayland , new os , package full os , V28.0 perfomance wayland font DejaVu Sans Mono Bold 11 , tango gedit
+dconf , gnome , wayland , new os , package full os , V30.0 perfomance wayland , tango gedit
 
 update nemo dconf 10.01.2021
 
@@ -25,8 +25,7 @@ ignore hide icons re session ! Exit session ! New session run : Ru игнори�
 
 $ chmod -R a+rwx special_os_perfomance.sh
 
-Budgie fix recompilation icons nemo programm https://github.com/Griggorii/budgie-desktop/commit/2488278a8a76dcdf67c969795342a1042e2dea3e
-
+Budgie fix recompilation icons nemo programm https://github.com/Griggorii/budgie-desktop/commit/2488278a8a76dcdf67c969795342a1042e2dea3e берем исходник правим точно так же пересобираем и получаем отставание панели на 4 секунды для запуска иконок от немо
 _____________________________________________________________________________________________________________________________________
 
 
