@@ -25,6 +25,8 @@ ignore hide icons re session ! Exit session ! New session run : Ru игнори�
 
 $ chmod -R a+rwx special_os_perfomance.sh
 
+Budgie fix recompilation icons nemo programm https://github.com/Griggorii/budgie-desktop/commit/2488278a8a76dcdf67c969795342a1042e2dea3e
+
 _____________________________________________________________________________________________________________________________________
 
 
