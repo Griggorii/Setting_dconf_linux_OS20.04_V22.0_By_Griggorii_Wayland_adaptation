@@ -1,7 +1,7 @@
 # Setting_dconf_linux_OS20.04_V30.0_By_Griggorii_Wayland_adaptation Nemo filemanger + sensor gdm3 touchpad
 dconf , gnome , wayland , new os , package full os , V30.0 perfomance wayland , tango gedit
 
-update nemo dconf 15.01.2021 fix [org/blueman/transfer] shared-path=''
+update nemo dconf 09.02.2021 fix minimum size | 15.01.2021 seria 30.0 fix [org/blueman/transfer] shared-path=''
 
 # Nemo default all ubuntu install 
 
@@ -13,17 +13,21 @@ Ubuntu , debian
 
 $ sudo apt update && sudo apt install nemo -y
 
-$ chmod -R a+rwx Setting_dconf_linux_OS20.04_V30.0_By_Griggorii_Wayland_adaptation.sh
+$ chmod -R a+rwx Setting_dconf_linux_OS20.04_V34.0_By_Griggorii_Wayland_adaptation.sh
 
-$ sudo ./Setting_dconf_linux_OS20.04_V30.0_By_Griggorii_Wayland_adaptation.sh
+$ sudo ./Setting_dconf_linux_OS20.04_V34.0_By_Griggorii_Wayland_adaptation.sh
 
 Double repeat not sudo
 
-$ ./Setting_dconf_linux_OS20.04_V30.0_By_Griggorii_Wayland_adaptation.sh
+$ ./Setting_dconf_linux_OS20.04_V34.0_By_Griggorii_Wayland_adaptation.sh
 
 ignore hide icons re session ! Exit session ! New session run : Ru игнорируя что иконки пока еще не появились выйти и заити и они появятся
 
-$ chmod -R a+rwx special_os_perfomance.sh
+$ chmod -R a+rwx special_os_perfomance.shrm -rf 
+
+full upgrade ubuntu check remove nautilus double icons -> /usr/share/gnome-shell/extensions/desktop-icons@csoriano
+
+$ sudo rm -rf /usr/share/gnome-shell/extensions/desktop-icons@csoriano
 
 Budgie fix recompilation icons nemo programm https://github.com/Griggorii/budgie-desktop/commit/2488278a8a76dcdf67c969795342a1042e2dea3e берем исходник правим точно так же пересобираем и получаем отставание панели на 4 секунды для запуска иконок от немо
 _____________________________________________________________________________________________________________________________________
