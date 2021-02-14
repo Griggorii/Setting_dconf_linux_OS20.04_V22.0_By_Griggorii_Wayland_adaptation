@@ -38,6 +38,8 @@ full upgrade ubuntu check remove nautilus double icons -> /usr/share/gnome-shell
 
 $ sudo rm -rf /usr/share/gnome-shell/extensions/desktop-icons@csoriano
 
+Test setting -> Testing-setting-good-1-variant_and_2-variant?.zip
+
 Budgie fix recompilation icons nemo programm https://github.com/Griggorii/budgie-desktop/commit/2488278a8a76dcdf67c969795342a1042e2dea3e берем исходник правим точно так же пересобираем и получаем отставание панели на 4 секунды для запуска иконок от немо
 _____________________________________________________________________________________________________________________________________
 
@@ -69,6 +71,8 @@ $ sudo ./Replace_nemo-to-nautilus_dconf_linux_OS20.04_V27.0_By_Griggorii_Wayland
 Double repeat not sudo
 
 Exit session ! New session run
+
+Test setting -> Testing-setting-good-1-variant_and_2-variant?.zip
 _______________________________________________________________________________________________________________________
 
 
