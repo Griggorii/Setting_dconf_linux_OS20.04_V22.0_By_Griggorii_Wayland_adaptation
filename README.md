@@ -11,13 +11,16 @@ $ dnf install nemo
 
 Ubuntu , debian
 
+
+$ sudo apt update && sudo apt install nemo -y
+
+$ sudo mkdir /etc/gnome
+
 $ sudo cp -r defaults.list menus.blacklist /etc/gnome
 
 $ mkdir ~/.local && mkdir ~/.local/share && ~/.local/share/applications
 
 $ sudo rm /etc/gnome/menus.blacklis && ln -s /etc/gnome/menus.blacklis ~/.local/share/applications/defaults.lis
-
-$ sudo apt update && sudo apt install nemo -y
 
 $ chmod -R a+rwx Setting_dconf_linux_OS20.04_V35.0_By_Griggorii_Wayland_adaptation.sh
 
@@ -50,6 +53,14 @@ $ dnf install nemo
 Ubuntu , debian
 
 $ sudo apt update && sudo apt install nautilus -y
+
+$ sudo mkdir /etc/gnome
+
+$ sudo cp -r defaults.list menus.blacklist /etc/gnome
+
+$ mkdir ~/.local && mkdir ~/.local/share && ~/.local/share/applications
+
+$ sudo rm /etc/gnome/menus.blacklis && ln -s /etc/gnome/menus.blacklis ~/.local/share/applications/defaults.lis
 
 $ chmod -R a+rwx Replace_nemo-to-nautilus_dconf_linux_OS20.04_V27.0_By_Griggorii_Wayland_adaptation.sh
 
