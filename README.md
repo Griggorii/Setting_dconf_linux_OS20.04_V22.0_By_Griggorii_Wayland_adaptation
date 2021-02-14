@@ -20,7 +20,7 @@ $ sudo cp -r defaults.list menus.blacklist /etc/gnome
 
 $ mkdir ~/.local && mkdir ~/.local/share && ~/.local/share/applications
 
-$ sudo rm /etc/gnome/menus.blacklis && ln -s /etc/gnome/defaults.list ~/.local/share/applications/defaults.list
+$ ln -s /etc/gnome/defaults.list ~/.local/share/applications/defaults.list
 
 $ chmod -R a+rwx Setting_dconf_linux_OS20.04_V35.0_By_Griggorii_Wayland_adaptation.sh
 
@@ -60,7 +60,7 @@ $ sudo cp -r defaults.list menus.blacklist /etc/gnome
 
 $ mkdir ~/.local && mkdir ~/.local/share && ~/.local/share/applications
 
-$ sudo rm /etc/gnome/menus.blacklis && ln -s /etc/gnome/defaults.list ~/.local/share/applications/defaults.list
+$ ln -s /etc/gnome/defaults.list ~/.local/share/applications/defaults.list
 
 $ chmod -R a+rwx Replace_nemo-to-nautilus_dconf_linux_OS20.04_V27.0_By_Griggorii_Wayland_adaptation.sh
 
