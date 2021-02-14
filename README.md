@@ -1,7 +1,7 @@
-# Setting_dconf_linux_OS20.04_V30.0_By_Griggorii_Wayland_adaptation Nemo filemanger + sensor gdm3 touchpad
-dconf , gnome , wayland , new os , package full os , V30.0 perfomance wayland , tango gedit
+# Setting_dconf_linux_OS20.04_V35.0_By_Griggorii_Wayland_adaptation Nemo filemanger + sensor gdm3 touchpad
+dconf , gnome , wayland , new os , package full os , V35.0 perfomance wayland , tango gedit
 
-re-update nemo dconf 12.02.2021 fix minimum size | 15.01.2021 seria 30.0 fix [org/blueman/transfer] shared-path=''
+re-update nemo dconf 14.02.2021 fix minimum size | 15.01.2021 seria 30.0 fix [org/blueman/transfer] shared-path=''
 
 # Nemo default all ubuntu install 
 
@@ -13,13 +13,13 @@ Ubuntu , debian
 
 $ sudo apt update && sudo apt install nemo -y
 
-$ chmod -R a+rwx Setting_dconf_linux_OS20.04_V34.0_By_Griggorii_Wayland_adaptation.sh
+$ chmod -R a+rwx Setting_dconf_linux_OS20.04_V35.0_By_Griggorii_Wayland_adaptation.sh
 
-$ sudo ./Setting_dconf_linux_OS20.04_V34.0_By_Griggorii_Wayland_adaptation.sh
+$ sudo ./Setting_dconf_linux_OS20.04_V35.0_By_Griggorii_Wayland_adaptation.sh
 
 Double repeat not sudo
 
-$ ./Setting_dconf_linux_OS20.04_V34.0_By_Griggorii_Wayland_adaptation.sh
+$ ./Setting_dconf_linux_OS20.04_V35.0_By_Griggorii_Wayland_adaptation.sh
 
 ignore hide icons re session ! Exit session ! New session run : Ru игнорируя что иконки пока еще не появились выйти и заити и они появятся
 
