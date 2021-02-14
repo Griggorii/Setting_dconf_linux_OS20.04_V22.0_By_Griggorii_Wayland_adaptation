@@ -105,6 +105,8 @@ Onli shell version 3.38 danger risk check gnome-shell version 3.38
 
 $ sudo XZ_OPT=-9 tar -Jcvf gnome-shell-3.38_backup.tar.xz /usr/share/gnome-shell && sudo tar xvpf gnome-shell-3.38.tar.xz -C / && sudo tar xvpf gnome-shell-3.38_backup.tar.xz -C /
 
+Run ~/.local/share/gnome-shell delete all folder exten not delete application_state gnome-overrides-migrated
+
 Dconf setting recomendation extentions good test not problem install 
 
 https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/
