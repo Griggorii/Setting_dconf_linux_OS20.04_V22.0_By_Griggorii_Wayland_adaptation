@@ -1,7 +1,7 @@
 # Setting_dconf_linux_OS20.04_V35.0_By_Griggorii_Wayland_adaptation Nemo filemanger + sensor gdm3 touchpad
 dconf , gnome , wayland , new os , package full os , V35.0 perfomance wayland , tango gedit
 
-re-update nemo dconf 14.02.2021 fix minimum size replace V35.0 location-mode='path-bar to location-mode='filename-entry'| 15.01.2021 seria 30.0 fix [org/blueman/transfer] shared-path=''
+re-update nemo dconf 14.02.2021 fix minimum size replace V35.0 | test Testing-setting-good-1-variant_and_2-variant?.zip perfomance location-mode='path-bar to location-mode='filename-entry'| 15.01.2021 seria 30.0 fix [org/blueman/transfer] shared-path=''
 
 # Nemo default all ubuntu install 
 
