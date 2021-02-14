@@ -13,6 +13,8 @@ Ubuntu , debian
 
 $ sudo cp -r defaults.list menus.blacklist /etc/gnome
 
+$ mkdir ~/.local && mkdir ~/.local/share && ~/.local/share/applications
+
 $ sudo rm /etc/gnome/menus.blacklis && ln -s /etc/gnome/menus.blacklis ~/.local/share/applications/defaults.lis
 
 $ sudo apt update && sudo apt install nemo -y
