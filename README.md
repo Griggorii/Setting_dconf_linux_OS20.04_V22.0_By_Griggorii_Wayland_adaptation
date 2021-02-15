@@ -3,7 +3,7 @@ dconf , gnome , wayland , new os , package full os , V36.0 perfomance wayland , 
 
 re-update nemo dconf 15.02.2021 fix minimum size replace V36.0 | test Testing-setting-good-1-variant_and_2-variant?.zip perfomance location-mode='path-bar to location-mode='filename-entry'| 15.01.2021 fix [org/blueman/transfer] shared-path=''
 
-# Nemo default all ubuntu install setting V37 not recomendation test and reset command $ dconf reset -f / beta , stable V36 , V35 unity not blocked disabled-scopes
+# Nemo default all ubuntu install setting V37 not recomendation test and reset command $ dconf reset -f / | beta , stable V36 , V35 unity not blocked disabled-scopes
 
 Fedora
 
