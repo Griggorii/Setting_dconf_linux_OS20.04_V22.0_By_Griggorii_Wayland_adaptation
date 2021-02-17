@@ -18,7 +18,11 @@ $ sudo mkdir /etc/gnome
 
 $ sudo cp -r defaults.list menus.blacklist /etc/gnome
 
-$ mkdir ~/.local && mkdir ~/.local/share && ~/.local/share/applications
+$ mkdir ~/.local
+
+$ mkdir ~/.local/share
+
+$ mkdir ~/.local/share/applications
 
 $ sudo rm ~/.local/share/applications/defaults.list && ln -s /etc/gnome/defaults.list ~/.local/share/applications/defaults.list
 
@@ -60,7 +64,11 @@ $ sudo mkdir /etc/gnome
 
 $ sudo cp -r defaults.list menus.blacklist /etc/gnome
 
-$ mkdir ~/.local && mkdir ~/.local/share && ~/.local/share/applications
+$ mkdir ~/.local
+
+$ mkdir ~/.local/share
+
+$ mkdir ~/.local/share/applications
 
 $ sudo rm ~/.local/share/applications/defaults.list && ln -s /etc/gnome/defaults.list ~/.local/share/applications/defaults.list
 
