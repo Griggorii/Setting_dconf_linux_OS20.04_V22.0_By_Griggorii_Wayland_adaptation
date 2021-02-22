@@ -32,7 +32,7 @@ $ sudo ./Setting_dconf_linux_OS20.04_V39.0_By_Griggorii_Wayland_adaptation.sh
 
 Double repeat not sudo
 
-$ ./Setting_dconf_linux_OS20.04_V38.0_By_Griggorii_Wayland_adaptation.sh
+$ ./Setting_dconf_linux_OS20.04_V39.0_By_Griggorii_Wayland_adaptation.sh
 
 ignore hide icons re session ! Exit session ! New session run : Ru игнорируя что иконки пока еще не появились выйти и заити и они появятся
 
