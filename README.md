@@ -3,7 +3,9 @@ dconf , gnome , wayland , new os , package full os , V40.0 perfomance wayland , 
 
 re-update nemo dconf 28.02.2021 add V40.0 fractional scaling | test Testing-setting-good-1-variant_and_2-variant?.zip perfomance location-mode='path-bar to location-mode='filename-entry'| 15.01.2021 fix [org/blueman/transfer] shared-path=''
 
-# Nemo default all ubuntu install setting V37 not recomendation test and reset command $ dconf reset -f / | beta , stable V36 , V35 unity not blocked disabled-scopes
+Nemo default all ubuntu install setting V37 not recomendation test and reset command $ dconf reset -f / | beta , stable V36 , V35 unity not blocked disabled-scopes
+
+##################################################################################################################################################################
 
 Fedora
 
@@ -45,8 +47,8 @@ $ sudo rm -rf /usr/share/gnome-shell/extensions/desktop-icons@csoriano
 Test setting -> Testing-setting-good-1-variant_and_2-variant?.zip
 
 Budgie fix recompilation icons nemo programm https://github.com/Griggorii/budgie-desktop/commit/2488278a8a76dcdf67c969795342a1042e2dea3e берем исходник правим точно так же пересобираем и получаем отставание панели на 4 секунды для запуска иконок от немо
-_____________________________________________________________________________________________________________________________________
-
+__________________________________________________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________________________________________
 
 # Nautilus default all ubuntu install 
 
