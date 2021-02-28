@@ -1,7 +1,7 @@
-# Setting_dconf_linux_OS20.04_V39.0_By_Griggorii_Wayland_adaptation Nemo filemanger + sensor gdm3 touchpad
-dconf , gnome , wayland , new os , package full os , V39.0 perfomance wayland , tango gedit , fast
+# Setting_dconf_linux_OS20.04_V40.0_By_Griggorii_Wayland_adaptation Nemo filemanger + sensor gdm3 touchpad
+dconf , gnome , wayland , new os , package full os , V40.0 perfomance wayland , tango gedit , fast
 
-re-update nemo dconf 22.02.2021 replace V39.0 | test Testing-setting-good-1-variant_and_2-variant?.zip perfomance location-mode='path-bar to location-mode='filename-entry'| 15.01.2021 fix [org/blueman/transfer] shared-path=''
+re-update nemo dconf 28.02.2021 add V40.0 fractional scaling | test Testing-setting-good-1-variant_and_2-variant?.zip perfomance location-mode='path-bar to location-mode='filename-entry'| 15.01.2021 fix [org/blueman/transfer] shared-path=''
 
 # Nemo default all ubuntu install setting V37 not recomendation test and reset command $ dconf reset -f / | beta , stable V36 , V35 unity not blocked disabled-scopes
 
@@ -26,13 +26,13 @@ $ mkdir ~/.local/share/applications
 
 $ sudo rm ~/.local/share/applications/defaults.list && ln -s /etc/gnome/defaults.list ~/.local/share/applications/defaults.list
 
-$ chmod -R a+rwx Setting_dconf_linux_OS20.04_V39.0_By_Griggorii_Wayland_adaptation.sh
+$ chmod -R a+rwx Setting_dconf_linux_OS20.04_V40.0_By_Griggorii_Wayland_adaptation.sh
 
-$ sudo ./Setting_dconf_linux_OS20.04_V39.0_By_Griggorii_Wayland_adaptation.sh
+$ sudo ./Setting_dconf_linux_OS20.04_V40.0_By_Griggorii_Wayland_adaptation.sh
 
 Double repeat not sudo
 
-$ ./Setting_dconf_linux_OS20.04_V39.0_By_Griggorii_Wayland_adaptation.sh
+$ ./Setting_dconf_linux_OS20.04_V40.0_By_Griggorii_Wayland_adaptation.sh
 
 ignore hide icons re session ! Exit session ! New session run : Ru игнорируя что иконки пока еще не появились выйти и заити и они появятся
 
