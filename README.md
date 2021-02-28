@@ -5,7 +5,7 @@ re-update nemo dconf 28.02.2021 add V40.0 fractional scaling | test Testing-sett
 
 Nemo default all ubuntu install setting V37 not recomendation test and reset command $ dconf reset -f / | beta , stable V36 , V35 unity not blocked disabled-scopes
 
-##################################################################################################################################################################
+##########################################################################################################################
 
 Fedora
 
