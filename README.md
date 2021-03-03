@@ -57,7 +57,7 @@ install https://extensions.gnome.org/extension/1465/desktop-icons/
 
 Fedora
 
-$ sudo dnf update && dnf reinstall nemo && sudo dnf install nemo
+$ sudo dnf update && sudo dnf reinstall nemo && sudo dnf install nemo
 
 Ubuntu , debian
 
