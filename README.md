@@ -74,11 +74,15 @@ $ mkdir ~/.local/share/applications
 
 $ sudo rm ~/.local/share/applications/defaults.list && ln -s /etc/gnome/defaults.list ~/.local/share/applications/defaults.list
 
-$ chmod -R a+rwx Replace_nemo-to-nautilus_dconf_linux_OS20.04_V27.0_By_Griggorii_Wayland_adaptation.sh
+$ chmod -R a+rwx Replace_nemo-to-nautilus_dconf_linux_OS20.04_V40.0_By_Griggorii_Wayland_adaptation.sh
 
-$ sudo ./Replace_nemo-to-nautilus_dconf_linux_OS20.04_V27.0_By_Griggorii_Wayland_adaptation.sh
+Not sudo run root system file replace 
+
+$ sudo ./Replace_nemo-to-nautilus_dconf_linux_OS20.04_V40.0_By_Griggorii_Wayland_adaptation.sh
 
 Double repeat not sudo
+
+$ ./Replace_nemo-to-nautilus_dconf_linux_OS20.04_V40.0_By_Griggorii_Wayland_adaptation.sh
 
 Exit session ! New session run
 
