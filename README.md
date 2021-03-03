@@ -7,12 +7,13 @@ Nemo default all ubuntu install setting V37 not recomendation test and reset com
 
 #################################################################################################################
 
+Not sudo alternative root
+
 Fedora
 
-$ dnf install nemo
+$ dnf install nemo gnome-shell-extension-desktop-icons
 
 Ubuntu , debian
-
 
 $ sudo apt update && sudo apt install nemo -y
 
