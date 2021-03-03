@@ -60,7 +60,7 @@ $ dnf install nemo
 
 Ubuntu , debian
 
-$ sudo apt update && sudo apt install nautilus -y
+$ sudo apt update && sudo apt --reinstall install gnome-shell-extension-desktop-icons nautilus -y
 
 $ sudo mkdir /etc/gnome
 
