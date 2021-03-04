@@ -1,5 +1,5 @@
-# Setting_dconf_linux_OS20.04_V40.0_By_Griggorii_Wayland_adaptation Nemo filemanger + sensor gdm3 touchpad
-dconf , gnome , wayland , new os , package full os , V40.0 perfomance wayland , tango gedit , fast
+# Setting_dconf_linux_OS20.04_V41.0_By_Griggorii_Wayland_adaptation Nemo filemanger + sensor gdm3 touchpad
+dconf , gnome , wayland , new os , package full os , V41.0 perfomance wayland , tango gedit , fast
 
 re-update nemo dconf 04.03.2021 add V41.0 fractional scaling | test Testing-setting-good-1-variant_and_2-variant?.zip perfomance location-mode='path-bar to location-mode='filename-entry'| 15.01.2021 fix [org/blueman/transfer] shared-path=''
 
