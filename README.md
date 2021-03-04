@@ -11,7 +11,7 @@ Not sudo alternative root
 
 Fedora
 
-$ dnf install nemo gnome-shell-extension-desktop-icons
+$ dnf install nemo
 
 Ubuntu , debian
 
