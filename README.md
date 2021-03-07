@@ -35,9 +35,9 @@ Double repeat not sudo
 
 $ ./Setting_dconf_linux_OS20.04_V43.0_By_Griggorii_Wayland_adaptation.sh
 
-ignore hide icons re session ! Exit session ! New session run : Ru игнорируя что иконки пока еще не появились выйти и заити и они появятся
+$ dconf reset -f /org/gnome/builder/
 
-$ chmod -R a+rwx special_os_perfomance.shrm -rf 
+ignore hide icons re session ! Exit session ! New session run : Ru игнорируя что иконки пока еще не появились выйти и заити и они появятся
 
 full upgrade ubuntu check remove nautilus double icons -> /usr/share/gnome-shell/extensions/desktop-icons@csoriano
 
@@ -82,6 +82,8 @@ $ sudo ./Replace_nemo-to-nautilus_dconf_linux_OS20.04_V43.0_By_Griggorii_Wayland
 Double repeat not sudo
 
 $ ./Replace_nemo-to-nautilus_dconf_linux_OS20.04_V43.0_By_Griggorii_Wayland_adaptation.sh
+
+$ dconf reset -f /org/gnome/builder/
 
 Exit session ! New session run
 
