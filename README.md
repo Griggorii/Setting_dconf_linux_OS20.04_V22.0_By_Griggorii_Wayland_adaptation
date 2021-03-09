@@ -1,7 +1,7 @@
-# Setting_dconf_linux_OS20.04_V44.0_By_Griggorii_Wayland_adaptation Nemo filemanger + sensor gdm3 touchpad
+# Setting_dconf_linux_OS20.04_V45.0_By_Griggorii_Wayland_adaptation Nemo filemanger + sensor gdm3 touchpad
 dconf , gnome , wayland , new os , package full os , V44.0 perfomance wayland , tango gedit , fast
 
-re-update nemo dconf 05.03.2021 add V43.0-44.0 fractional scaling | test Testing-setting-good-1-variant_and_2-variant?.zip perfomance location-mode='path-bar to location-mode='filename-entry'| 15.01.2021 fix [org/blueman/transfer] shared-path=''
+re-update nemo dconf 09.03.2021 add V45.0 fractional scaling | test Testing-setting-good-1-variant_and_2-variant?.zip perfomance location-mode='path-bar to location-mode='filename-entry'| 15.01.2021 fix [org/blueman/transfer] shared-path=''
 
 #################################################################################################################
 
@@ -27,13 +27,13 @@ $ mkdir ~/.local/share/applications
 
 $ sudo rm ~/.local/share/applications/defaults.list && ln -s /etc/gnome/defaults.list ~/.local/share/applications/defaults.list
 
-$ chmod -R a+rwx Setting_dconf_linux_OS20.04_V44.0_By_Griggorii_Wayland_adaptation.sh
+$ chmod -R a+rwx Setting_dconf_linux_OS20.04_V45.0_By_Griggorii_Wayland_adaptation.sh
 
-$ sudo ./Setting_dconf_linux_OS20.04_V44.0_By_Griggorii_Wayland_adaptation.sh
+$ sudo ./Setting_dconf_linux_OS20.04_V45.0_By_Griggorii_Wayland_adaptation.sh
 
 Double repeat not sudo
 
-$ ./Setting_dconf_linux_OS20.04_V44.0_By_Griggorii_Wayland_adaptation.sh
+$ ./Setting_dconf_linux_OS20.04_V45.0_By_Griggorii_Wayland_adaptation.sh
 
 $ dconf reset -f /org/gnome/builder/
 
@@ -73,15 +73,15 @@ $ mkdir ~/.local/share/applications
 
 $ sudo rm ~/.local/share/applications/defaults.list && ln -s /etc/gnome/defaults.list ~/.local/share/applications/defaults.list
 
-$ chmod -R a+rwx Replace_nemo-to-nautilus_dconf_linux_OS20.04_V44.0_By_Griggorii_Wayland_adaptation.sh
+$ chmod -R a+rwx Replace_nemo-to-nautilus_dconf_linux_OS20.04_V45.0_By_Griggorii_Wayland_adaptation.sh
 
 Not sudo run root system file replace 
 
-$ sudo ./Replace_nemo-to-nautilus_dconf_linux_OS20.04_V44.0_By_Griggorii_Wayland_adaptation.sh
+$ sudo ./Replace_nemo-to-nautilus_dconf_linux_OS20.04_V45.0_By_Griggorii_Wayland_adaptation.sh
 
 Double repeat not sudo
 
-$ ./Replace_nemo-to-nautilus_dconf_linux_OS20.04_V44.0_By_Griggorii_Wayland_adaptation.sh
+$ ./Replace_nemo-to-nautilus_dconf_linux_OS20.04_V45.0_By_Griggorii_Wayland_adaptation.sh
 
 $ dconf reset -f /org/gnome/builder/
 
