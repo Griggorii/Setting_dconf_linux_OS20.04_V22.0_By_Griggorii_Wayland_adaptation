@@ -27,7 +27,20 @@ $ mkdir ~/.local/share/applications
 
 $ sudo rm ~/.local/share/applications/defaults.list && ln -s /etc/gnome/defaults.list ~/.local/share/applications/defaults.list
 
+_________________________________________________________________________________________________________________
+
+Ubuntu debian
+
 $ sudo rm -rf /usr/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com && sudo apt update && sudo apt --reinstall install gnome-shell-extensions -y && sudo chmod -R 755 /usr/share/themes/Orchis && sudo glib-compile-schemas /usr/share/glib-2.0/schemas
+
+_________________________________________________________________________________________________________________
+
+Fedora
+
+$ sudo dnf update && sudo dnf install gnome-shell-extensions
+
+$ sudo chmod -R 755 /usr/share/themes/Orchis && sudo glib-compile-schemas /usr/share/glib-2.0/schemas
+_________________________________________________________________________________________________________________
 
 $ chmod -R a+rwx Setting_dconf_linux_OS20.04_V45.0_By_Griggorii_Wayland_adaptation.sh
 
@@ -75,9 +88,20 @@ $ mkdir ~/.local/share/applications
 
 $ sudo rm ~/.local/share/applications/defaults.list && ln -s /etc/gnome/defaults.list ~/.local/share/applications/defaults.list
 
-$ sudo rm -rf /usr/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com && sudo dnf update && sudo dnf install gnome-shell-extensions
+_________________________________________________________________________________________________________________
+
+Ubuntu debian
+
+$ sudo rm -rf /usr/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com && sudo apt update && sudo apt --reinstall install gnome-shell-extensions -y && sudo chmod -R 755 /usr/share/themes/Orchis && sudo glib-compile-schemas /usr/share/glib-2.0/schemas
+
+_________________________________________________________________________________________________________________
+
+Fedora
+
+$ sudo dnf update && sudo dnf install gnome-shell-extensions
 
 $ sudo chmod -R 755 /usr/share/themes/Orchis && sudo glib-compile-schemas /usr/share/glib-2.0/schemas
+_________________________________________________________________________________________________________________
 
 $ chmod -R a+rwx Replace_nemo-to-nautilus_dconf_linux_OS20.04_V45.0_By_Griggorii_Wayland_adaptation.sh
 
