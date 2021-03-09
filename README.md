@@ -5,6 +5,8 @@ re-update nemo dconf 09.03.2021 add V45.0 fractional scaling | test Testing-sett
 
 #################################################################################################################
 
+Download OS full theme collections: https://youtu.be/AGyFE0byu5k
+
 Not sudo alternative root
 
 Fedora
