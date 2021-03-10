@@ -1,0 +1,15 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=Plank setting
+Name[ru]=Plank настройка
+GenericName=Dock
+Comment[ru]=До безумного прост.
+Comment=Stupidly simple.
+Categories=Utility;
+Type=Application
+Exec=plank --preferences
+Icon=plank
+Terminal=false
+NoDisplay=false
+Name[ru]=Plank-setting
