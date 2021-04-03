@@ -1,5 +1,5 @@
 # Setting_dconf_linux_OS20.04_V46.0_By_Griggorii_Wayland_adaptation Nemo filemanger + sensor gdm3 touchpad
-dconf , gnome , wayland , new os , package full os , V46.0 perfomance wayland , tango gedit , fast
+dconf , gnome , wayland , new os , package full os , V46.0 perfomance wayland , tango gedit , fast , global setting
 
 re-update nemo dconf 10.03.2021 add V46.0 fractional scaling delete rm -rf icons nautilus root string fix | test Testing-setting-good-1-variant_and_2-variant?.zip perfomance location-mode='path-bar to location-mode='filename-entry'| 15.01.2021 fix [org/blueman/transfer] shared-path=''
 
