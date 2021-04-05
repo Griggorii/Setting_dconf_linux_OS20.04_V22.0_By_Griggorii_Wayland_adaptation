@@ -66,7 +66,7 @@ Budgie fix recompilation icons nemo programm https://github.com/Griggorii/budgie
 _________________________________________________________________________________________________________________
 _________________________________________________________________________________________________________________
 
-# Nautilus default all ubuntu install 
+# Nautilus default all ubuntu install new ubuntu debian automatization run terminal chmod -R a+rwx Dconf-Orchis-Shell-Theme-Icon-oomox.sh run terminal ./Dconf-Orchis-Shell-Theme-Icon-oomox.sh
 
 install https://extensions.gnome.org/extension/1465/desktop-icons/
 
