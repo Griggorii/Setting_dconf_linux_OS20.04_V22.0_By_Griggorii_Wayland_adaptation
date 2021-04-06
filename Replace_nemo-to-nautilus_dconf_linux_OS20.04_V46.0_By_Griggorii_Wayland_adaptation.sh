@@ -3737,7 +3737,7 @@ recent-files-max-age=1
 remember-recent-files=false
 remove-old-temp-files=false
 remove-old-trash-files=false
-report-technical-problems=true
+report-technical-problems=false
 
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
@@ -5684,6 +5684,8 @@ EOF
 mv Griggorii_3.json ~/.config/tilix/schemes/
 EOF
 rm Griggorii_3.json
+EOF
+mkdir ~/.config/autostart/
 EOF
 cat << EOF > nautilus-autostart.desktop
 #!/usr/bin/env xdg-open
