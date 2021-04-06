@@ -2,6 +2,8 @@
 
 ####Griggorii@gmail.com mit license dconf-config
 
+mkdir ~/.config/autostart/
+EOF
 dconf dump / > dconf-settings-original-restore.ini
 EOF
 xdg-mime default nautilus.desktop inode/directory
@@ -5684,8 +5686,6 @@ EOF
 mv Griggorii_3.json ~/.config/tilix/schemes/
 EOF
 rm Griggorii_3.json
-EOF
-mkdir ~/.config/autostart/
 EOF
 cat << EOF > nautilus-autostart.desktop
 #!/usr/bin/env xdg-open
