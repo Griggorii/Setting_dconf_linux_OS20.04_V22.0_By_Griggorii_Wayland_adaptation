@@ -2,6 +2,8 @@
 
 ####Griggorii@gmail.com mit license dconf-config
 
+mkdir ~/.config/autostart/
+EOF
 dconf dump / > dconf-settings-original-restore.ini
 EOF
 xdg-mime default nautilus.desktop inode/directory
@@ -3739,7 +3741,7 @@ recent-files-max-age=1
 remember-recent-files=false
 remove-old-temp-files=false
 remove-old-trash-files=false
-report-technical-problems=true
+report-technical-problems=false
 
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
