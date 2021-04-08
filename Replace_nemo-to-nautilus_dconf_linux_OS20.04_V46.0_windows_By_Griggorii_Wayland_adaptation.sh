@@ -2,6 +2,33 @@
 
 ####Griggorii@gmail.com mit license dconf-config
 
+mkdir backup-theme-icon
+EOF
+cd backup-theme-icon
+EOF
+dconf dump /org/cinnamon/desktop/interface/ > backup-cinnamon-theme-icon-mouse-font.dconf
+EOF
+dconf dump /org/gnome/desktop/interface/ > backup-gnome-theme-icon-mouse-font.dconf
+EOF
+dconf dump /org/gnome/shell/extensions/user-theme/ > backup-gnome-shell-theme.dconf
+EOF
+dconf dump /org/cinnamon/desktop/background/ > backup-cinnamon-background-wallpaper.dconf
+EOF
+dconf dump /org/gnome/desktop/background/ > backup-gnome-wallpaper.dconf
+EOF
+dconf dump /org/gnome/desktop/screensaver/ > backup-gnome-screensaver-wallpaper.dconf
+EOF
+cd -
+EOF
+tar -czvf backup-theme-icon.tar.gz ./backup-theme-icon 
+EOF
+rm -rf ./backup-theme-icon
+EOF
+cat << EOF > backup-theme-icon-restore.sh
+tar -xzvf ./backup-theme-icon.tar.gz && cd backup-theme-icon && dconf load /org/cinnamon/desktop/interface/ < backup-cinnamon-theme-icon-mouse-font.dconf && dconf load /org/gnome/desktop/interface/ < backup-gnome-theme-icon-mouse-font.dconf && dconf load /org/gnome/shell/extensions/user-theme/ < backup-gnome-shell-theme.dconf && dconf load /org/cinnamon/desktop/background/ < backup-cinnamon-background-wallpaper.dconf && dconf load /org/gnome/desktop/background/ < backup-gnome-wallpaper.dconf && dconf load /org/gnome/desktop/screensaver/ <  backup-gnome-screensaver-wallpaper.dconf && rm -rf backup-cinnamon-theme-icon-mouse-font.dconf backup-gnome-theme-icon-mouse-font.dconf backup-gnome-shell-theme.dconf backup-cinnamon-background-wallpaper.dconf backup-gnome-wallpaper.dconf backup-gnome-screensaver-wallpaper.dconf ./backup-cinnamon-theme-icon-mouse-font.dconf ./backup-gnome-theme-icon-mouse-font.dconf ./backup-gnome-shell-theme.dconf && cd - && rm -rf ./backup-theme-icon.tar.gz ./backup-theme-icon ./backup-cinnamon-background-wallpaper.dconf ./backup-gnome-wallpaper.dconf ./backup-gnome-screensaver-wallpaper.dconf backup-theme-icon-restore.sh
+EOF
+chmod -R a+rwx backup-theme-icon-restore.sh
+EOF
 mkdir ~/.config/autostart/
 EOF
 dconf dump / > dconf-settings-original-restore.ini
@@ -3735,7 +3762,7 @@ two-finger-scrolling-enabled=true
 
 [org/gnome/desktop/privacy]
 disable-microphone=false
-recent-files-max-age=1
+recent-files-max-age=0
 remember-recent-files=false
 remove-old-temp-files=false
 remove-old-trash-files=false
