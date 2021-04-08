@@ -47,6 +47,8 @@ dconf reset -f /org/gnome/builder/
 EOF
 dconf reset -f /org/gnome/nm-applet/eap/
 EOF
+gsettings set org.gnome.shell.extensions.user-theme name "Orchis"
+EOF
 cat << EOF > qt5ct.conf
 [Appearance]
 color_scheme_path=/usr/share/qt5ct/colors/simple.conf
