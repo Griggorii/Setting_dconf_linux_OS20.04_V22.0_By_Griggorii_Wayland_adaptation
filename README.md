@@ -5,7 +5,7 @@ re-update nemo dconf 10.03.2021 add V46.0 fractional scaling delete rm -rf icons
 
 #################################################################################################################
 
-Download OS full theme collections fedora: https://youtu.be/BNrL1aVWM9Y
+Download OS full theme collections fedora: https://youtu.be/BNrL1aVWM9Y | ubuntu/debian https://youtu.be/r0ki7MUEv7o
 
 Not sudo alternative root
 
