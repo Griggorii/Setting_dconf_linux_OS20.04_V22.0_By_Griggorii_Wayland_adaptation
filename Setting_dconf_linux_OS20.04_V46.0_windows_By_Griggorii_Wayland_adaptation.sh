@@ -5282,11 +5282,11 @@ selection-menu-move-to=true
 show-only-directories=false
 
 [org/nemo/window-state]
-geometry='881x492+34+28'
+geometry='894x489+34+28'
 maximized=false
 side-pane-view='places'
-sidebar-bookmark-breakpoint=4
-sidebar-width=194
+sidebar-bookmark-breakpoint=0
+sidebar-width=199
 start-with-menu-bar=true
 start-with-sidebar=true
 start-with-status-bar=true
