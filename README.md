@@ -44,13 +44,13 @@ $ sudo dnf update && sudo dnf install gnome-shell-extensions
 $ sudo chmod -R 755 /usr/share/themes/Orchis && sudo glib-compile-schemas /usr/share/glib-2.0/schemas
 _________________________________________________________________________________________________________________
 
-$ chmod -R a+rwx Setting_dconf_linux_OS20.04_V46.0_By_Griggorii_Wayland_adaptation.sh
+$ chmod -R a+rwx Setting_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_adaptation.sh
 
-$ sudo ./Setting_dconf_linux_OS20.04_V46.0_By_Griggorii_Wayland_adaptation.sh
+$ sudo ./Setting_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_adaptation.sh
 
 Double repeat not sudo
 
-$ ./Setting_dconf_linux_OS20.04_V46.0_By_Griggorii_Wayland_adaptation.sh
+$ ./Setting_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_adaptation.sh
 
 $ dconf reset -f /org/gnome/builder/
 
@@ -105,13 +105,13 @@ $ sudo dnf update && sudo dnf install gnome-shell-extensions
 $ sudo chmod -R 755 /usr/share/themes/Orchis && sudo glib-compile-schemas /usr/share/glib-2.0/schemas
 _________________________________________________________________________________________________________________
 
-$ chmod -R a+rwx Replace_nemo-to-nautilus_dconf_linux_OS20.04_V46.0_By_Griggorii_Wayland_adaptation.sh
+$ chmod -R a+rwx Replace_nemo-to-nautilus_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_adaptation.sh
 
 Not sudo run root system file replace 
 
-$ sudo ./Replace_nemo-to-nautilus_dconf_linux_OS20.04_V46.0_By_Griggorii_Wayland_adaptation.sh
+$ sudo ./Replace_nemo-to-nautilus_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_adaptation.sh
 
-Double repeat not sudo
+Double repeat not sudo ctrl+c ignore sudo
 
 $ ./Replace_nemo-to-nautilus_dconf_linux_OS20.04_V46.0_By_Griggorii_Wayland_adaptation.sh
 
