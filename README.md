@@ -46,7 +46,7 @@ Fedora
 
 $ sudo dnf update && sudo dnf reinstall nautilus  gnome-shell-extension-desktop-icons && sudo dnf install nautilus gnome-shell-extension-desktop-icons
 
-
+$ sudo dnf update && sudo dnf install gnome-shell-extensions
 _________________________________________________________________________________________________________________
 
 Ubuntu debian
@@ -57,11 +57,6 @@ $ sudo apt update && sudo apt --reinstall install git gnome-shell-extension-auto
 
 _________________________________________________________________________________________________________________
 
-Fedora
-
-$ sudo dnf update && sudo dnf install gnome-shell-extensions
-
-_________________________________________________________________________________________________________________
 
 $ chmod -R a+rwx Replace_nemo-to-nautilus_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_vertical_adaptation.sh
 
