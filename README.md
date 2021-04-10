@@ -61,7 +61,6 @@ Fedora
 
 $ sudo dnf update && sudo dnf install gnome-shell-extensions
 
-$ sudo chmod -R 755 /usr/share/themes/Orchis && sudo glib-compile-schemas /usr/share/glib-2.0/schemas
 _________________________________________________________________________________________________________________
 
 $ chmod -R a+rwx Replace_nemo-to-nautilus_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_vertical_adaptation.sh
