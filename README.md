@@ -72,9 +72,7 @@ ________________________________________________________________________________
 
 $ chmod -R a+rwx Replace_nemo-to-nautilus_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_vertical_adaptation.sh
 
-Not sudo run root system file replace 
-
-$ sudo ./Replace_nemo-to-nautilus_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_vertical_adaptation.sh
+$ ./Replace_nemo-to-nautilus_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_vertical_adaptation.sh
 
 Exit session ! New session run
 
