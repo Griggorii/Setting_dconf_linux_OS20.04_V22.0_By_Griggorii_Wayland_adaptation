@@ -22,6 +22,8 @@ Ubuntu debian
 
 $ sudo rm -rf /usr/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com $HOME/.local/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com && sudo apt update && sudo apt --reinstall install gnome-shell-extensions -y && sudo chmod -R 755 /usr/share/themes/Orchis && sudo glib-compile-schemas /usr/share/glib-2.0/schemas
 
+$ sudo apt update && sudo apt --reinstall install git gnome-shell-extension-autohidetopbar gnome-shell-extension-system-monitor gnome-shell-extension-appindicator gnome-shell-extension-desktop-icons gnome-shell-extension-tilix-dropdown unity-settings-daemon-schemas gnome-shell-common gnome-shell-extension-prefs nautilus-extension-gnome-terminal gnome-tweak-tool gnome-tweaks gnome-screensaver gnome-session-canberra gnome-shell-extension-impatience gnome-shell-extensions -y
+
 _________________________________________________________________________________________________________________
 
 $ chmod -R a+rwx Setting_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_vertical_adaptation.sh
@@ -44,15 +46,14 @@ Fedora
 
 $ sudo dnf update && sudo dnf reinstall nautilus  gnome-shell-extension-desktop-icons && sudo dnf install nautilus gnome-shell-extension-desktop-icons
 
-Ubuntu , debian
-
-$ sudo apt update && sudo apt --reinstall install gnome-shell-extension-desktop-icons nautilus -y
 
 _________________________________________________________________________________________________________________
 
 Ubuntu debian
 
 $ sudo rm -rf /usr/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com $HOME/.local/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com && sudo apt update && sudo apt --reinstall install gnome-shell-extensions -y && sudo chmod -R 755 /usr/share/themes/Orchis && sudo glib-compile-schemas /usr/share/glib-2.0/schemas
+
+$ sudo apt update && sudo apt --reinstall install git gnome-shell-extension-autohidetopbar gnome-shell-extension-system-monitor gnome-shell-extension-appindicator gnome-shell-extension-desktop-icons gnome-shell-extension-tilix-dropdown unity-settings-daemon-schemas gnome-shell-common gnome-shell-extension-prefs nautilus-extension-gnome-terminal gnome-tweak-tool gnome-tweaks gnome-screensaver gnome-session-canberra gnome-shell-extension-impatience gnome-shell-extensions nautilus -y
 
 _________________________________________________________________________________________________________________
 
