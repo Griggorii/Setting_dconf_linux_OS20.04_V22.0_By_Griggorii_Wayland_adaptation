@@ -7,11 +7,10 @@ re-update nemo dconf 08.04.2021 dconf 21.04 recomend V46.0 fix nautilus fraction
 
 Download OS full theme collections fedora: https://youtu.be/BNrL1aVWM9Y | ubuntu/debian https://youtu.be/r0ki7MUEv7o
 
-Not sudo alternative root
 
 Fedora
 
-$ dnf install nemo
+$ sudo dnf install gnome-shell-extensions nemo
 
 Ubuntu , debian
 
@@ -22,12 +21,6 @@ ________________________________________________________________________________
 Ubuntu debian
 
 $ sudo rm -rf /usr/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com $HOME/.local/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com && sudo apt update && sudo apt --reinstall install gnome-shell-extensions -y && sudo chmod -R 755 /usr/share/themes/Orchis && sudo glib-compile-schemas /usr/share/glib-2.0/schemas
-
-_________________________________________________________________________________________________________________
-
-Fedora
-
-$ sudo dnf update && sudo dnf install gnome-shell-extensions
 
 _________________________________________________________________________________________________________________
 
