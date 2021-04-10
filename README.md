@@ -17,18 +17,6 @@ Ubuntu , debian
 
 $ sudo apt update && sudo apt install nemo -y
 
-$ sudo mkdir /etc/gnome
-
-$ sudo cp -r defaults.list menus.blacklist /etc/gnome
-
-$ mkdir ~/.local
-
-$ mkdir ~/.local/share
-
-$ mkdir ~/.local/share/applications
-
-$ sudo rm ~/.local/share/applications/defaults.list && ln -s /etc/gnome/defaults.list ~/.local/share/applications/defaults.list
-
 _________________________________________________________________________________________________________________
 
 Ubuntu debian
@@ -41,28 +29,17 @@ Fedora
 
 $ sudo dnf update && sudo dnf install gnome-shell-extensions
 
-$ sudo chmod -R 755 /usr/share/themes/Orchis && sudo glib-compile-schemas /usr/share/glib-2.0/schemas
 _________________________________________________________________________________________________________________
 
-$ chmod -R a+rwx Setting_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_adaptation.sh
+$ chmod -R a+rwx Setting_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_vertical_adaptation.sh
 
-$ sudo ./Setting_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_adaptation.sh
-
-Double repeat not sudo
-
-$ ./Setting_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_adaptation.sh
-
-$ dconf reset -f /org/gnome/builder/
+$ ./Setting_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_vertical_adaptation.sh
 
 ignore hide icons re session ! Exit session ! New session run : Ru игнорируя что иконки пока еще не появились выйти и заити и они появятся
 
-full upgrade ubuntu check remove nautilus double icons -> /usr/share/gnome-shell/extensions/desktop-icons@csoriano
+________________________________________________________________________________________________________________________________________
 
-$ sudo rm -rf /usr/share/gnome-shell/extensions/desktop-icons@csoriano
-
-Test setting -> Testing-setting-good-1-variant_and_2-variant?.zip
-
-Budgie fix recompilation icons nemo programm https://github.com/Griggorii/budgie-desktop/commit/2488278a8a76dcdf67c969795342a1042e2dea3e берем исходник правим точно так же пересобираем и получаем отставание панели на 4 секунды для запуска иконок от немо
+DE Budgie fix recompilation icons nemo programm https://github.com/Griggorii/budgie-desktop/commit/2488278a8a76dcdf67c969795342a1042e2dea3e берем исходник правим точно так же пересобираем и получаем отставание панели на 4 секунды для запуска иконок от немо
 _________________________________________________________________________________________________________________
 _________________________________________________________________________________________________________________
 
@@ -78,18 +55,6 @@ Ubuntu , debian
 
 $ sudo apt update && sudo apt --reinstall install gnome-shell-extension-desktop-icons nautilus -y
 
-$ sudo mkdir /etc/gnome
-
-$ sudo cp -r defaults.list menus.blacklist /etc/gnome
-
-$ mkdir ~/.local
-
-$ mkdir ~/.local/share
-
-$ mkdir ~/.local/share/applications
-
-$ sudo rm ~/.local/share/applications/defaults.list && ln -s /etc/gnome/defaults.list ~/.local/share/applications/defaults.list
-
 _________________________________________________________________________________________________________________
 
 Ubuntu debian
@@ -105,21 +70,14 @@ $ sudo dnf update && sudo dnf install gnome-shell-extensions
 $ sudo chmod -R 755 /usr/share/themes/Orchis && sudo glib-compile-schemas /usr/share/glib-2.0/schemas
 _________________________________________________________________________________________________________________
 
-$ chmod -R a+rwx Replace_nemo-to-nautilus_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_adaptation.sh
+$ chmod -R a+rwx Replace_nemo-to-nautilus_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_vertical_adaptation.sh
 
 Not sudo run root system file replace 
 
-$ sudo ./Replace_nemo-to-nautilus_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_adaptation.sh
-
-Double repeat not sudo ctrl+c ignore sudo
-
-$ ./Replace_nemo-to-nautilus_dconf_linux_OS20.04_V46.0_By_Griggorii_Wayland_adaptation.sh
-
-$ dconf reset -f /org/gnome/builder/
+$ sudo ./Replace_nemo-to-nautilus_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_vertical_adaptation.sh
 
 Exit session ! New session run
 
-Test setting -> Testing-setting-good-1-variant_and_2-variant?.zip
 _______________________________________________________________________________________________________________________
 
 cairo-dock_setting_compiz_sound_visual.zip install cairo-dock open ~/.config zip copy to ~/.config inpack delete zip source restart cairo
