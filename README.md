@@ -106,11 +106,7 @@ $ /usr/bin/soffice
 ________________________________________________________________________________________________________________________________________________
 
 
-https://github.com/Griggorii/Setting_dconf_linux_OS20.04_V26.0_By_Griggorii_Wayland_adaptation/releases/tag/gnome-shell-3.38
-
-Onli shell version 3.38 danger risk check gnome-shell version 3.38
-
-$ sudo XZ_OPT=-9 tar -Jcvf gnome-shell-3.38_backup.tar.xz /usr/share/gnome-shell && sudo tar xvpf gnome-shell-3.38.tar.xz -C / && sudo tar xvpf gnome-shell-3.38_backup.tar.xz -C /
+Install all deb theme + icons https://github.com/Griggorii/ubuntu-21.04-hirsute-desktop-amd64-griggorii-zsync.iso
 
 Run ~/.local/share/gnome-shell delete all folder exten not delete application_state gnome-overrides-migrated
 
