@@ -323,7 +323,11 @@ sudo mv $HOME/.local/share/gnome-shell/extensions $HOME/
 EOF
 sudo apt update
 EOF
-sudo apt --reinstall install git gnome-shell-extension-autohidetopbar gnome-shell-extension-system-monitor gnome-shell-extension-appindicator gnome-shell-extension-desktop-icons gnome-shell-extension-tilix-dropdown unity-settings-daemon-schemas gnome-shell-common gnome-shell-extension-prefs nautilus-extension-gnome-terminal gnome-tweak-tool gnome-tweaks gnome-screensaver gnome-session-canberra gnome-shell-extension-impatience gnome-shell-extensions -y
+sudo apt --reinstall install git -y
+EOF
+sudo apt --reinstall install gnome-shell-extension-autohidetopbar gnome-shell-extension-system-monitor gnome-shell-extension-appindicator gnome-shell-extension-desktop-icons gnome-shell-extension-tilix-dropdown unity-settings-daemon-schemas gnome-shell-common gnome-shell-extension-prefs nautilus-extension-gnome-terminal gnome-tweak-tool gnome-tweaks gnome-screensaver gnome-session-canberra gnome-shell-extension-impatience -y
+EOF 
+sudo apt --reinstall install gnome-shell-extensions -y
 EOF 
 git clone https://github.com/Griggorii/ubuntu-21.04-hirsute-desktop-amd64-griggorii-zsync.iso.git && cd ubuntu-21.04-hirsute-desktop-amd64-griggorii-zsync.iso
 EOF
