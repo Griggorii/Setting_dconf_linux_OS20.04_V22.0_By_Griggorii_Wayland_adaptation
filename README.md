@@ -93,6 +93,8 @@ F1 | Help : вызов справки помощь
 
 Ctrl + N : Ctrl+Alt+Home | Run home folder : Вызов домашней директории
 
+Super + ↑ Window shell application | Super + ↓ Window shell application original size | adhesion to edges ← →
+
 View all setting terminal command:
 
 $ gnome-control-center keyboard
