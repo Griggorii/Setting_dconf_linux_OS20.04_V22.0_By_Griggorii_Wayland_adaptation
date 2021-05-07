@@ -5800,11 +5800,17 @@ budgie-panel
 EOF
 killall plank
 EOF
-plank
-EOF
 sudo sh -c "/usr/bin/echo 4194304 > /proc/sys/vm/dirty_bytes"
 EOF
 sudo sh -c "/usr/bin/echo 4194304 > /proc/sys/vm/dirty_background_bytes"
+EOF
+sudo sh -c "/usr/bin/echo 0 > /sys/devices/system/cpu/intel_pstate/no_turbo"
+EOF
+sudo sh -c "/usr/bin/echo 1 > /sys/devices/system/cpu/cpufreq/boost"
+EOF
+sudo sh -c "/usr/bin/cpupower frequency-set -g governor"
+EOF
+sudo sh -c "/usr/bin/echo 0 /sys/devices/system/cpu/cpu*/power/energy_perf_bias"
 EOF
 cd ~/
 EOF
@@ -5926,4 +5932,6 @@ EOF
 rm ./daemon.conf
 EOF
 sudo rm ./daemon.conf
+EOF
+plank
 EOF
