@@ -1,5 +1,5 @@
 # Setting_dconf_linux_OS21.04_V46.0_By_Griggorii_Wayland_adaptation Nemo and Nautilus filemanger + sensor gdm3 touchpad
-dconf , gnome , wayland , new os , package full os , V46.0 perfomance wayland , tango gedit , fast , global setting , epb
+dconf , gnome , wayland , new os , package full os , V46.0 perfomance wayland , tango gedit , fast , global setting , epb , patent | ﻿Ъjour „¤Є Ђ  8|”е| `•X / nemo-icon-view-auto-layout true 8
 
 re-update nautilus nemo dconf 07.05.2021 + EPB cpu all perfomance -> saved energy replace parametr "0" to "15" example sudo sh -c "/usr/bin/echo 15 /sys/devices/system/cpu/cpu*/power/energy_perf_bias" <- 15 -> planshet notebook battery power save | 08.04.2021 dconf 21.04 recomend V46.0 fix nautilus fractional scaling delete rm -rf icons nautilus root string fix | test Testing-setting-good-1-variant_and_2-variant?.zip perfomance location-mode='path-bar to location-mode='filename-entry'| 15.01.2021 fix [org/blueman/transfer] shared-path=''
 
