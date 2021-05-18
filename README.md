@@ -99,6 +99,8 @@ CTRL + ALT + S open random program repeat CTRL + ALT + S random windowed interfa
 
 Browser's PgUp/PgDown scroll fast
 
+Gnome 40.0 Keep pressed and do not let go Win/Super press repeat S
+
 View all setting terminal command:
 
 $ gnome-control-center keyboard
