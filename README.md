@@ -97,6 +97,8 @@ Super + ↑ Window shell application | Super + ↓ Window shell application orig
 
 CTRL + ALT + S open random program repeat CTRL + ALT + S random windowed interface resolution
 
+Browser's PgUp/PgDown scroll fast
+
 View all setting terminal command:
 
 $ gnome-control-center keyboard
