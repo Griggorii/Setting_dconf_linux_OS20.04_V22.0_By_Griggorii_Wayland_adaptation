@@ -95,6 +95,8 @@ Ctrl + N : Ctrl+Alt+Home | Run home folder : Вызов домашней дир�
 
 Super + ↑ Window shell application | Super + ↓ Window shell application original size | adhesion to edges ← →
 
+CTRL + ALT + TAB Native fixation on open programs and windows
+
 CTRL + ALT + S open random program repeat CTRL + ALT + S random windowed interface resolution
 
 Browser's PgUp/PgDown scroll fast
