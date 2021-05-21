@@ -76,6 +76,12 @@ $ gsettings set org.gnome.desktop.wm.preferences theme "Orchis-dark"
 
 $ gsettings set org.gnome.shell.extensions.user-theme name "Orchis"
 
+Dock example false favor
+
+$ gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
+
+$ gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top false
+
 New icons tela test
 
 $ gnome-tweaks
