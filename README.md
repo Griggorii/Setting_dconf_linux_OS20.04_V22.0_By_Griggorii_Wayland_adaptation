@@ -76,7 +76,7 @@ $ gsettings set org.gnome.desktop.wm.preferences theme "Orchis-dark"
 
 $ gsettings set org.gnome.shell.extensions.user-theme name "Orchis"
 
-Dock example false favor
+Dock panel example false favor setting left dock panel
 
 $ gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 
